@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+{
+margin: 0
+padding: 0
+box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+header{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    background-color: #232566;
+    align-items: center;
+    position: fixed ;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+header div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Sikta Banner;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    left: 60px;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.primary-colum{
+    display: flex;
+    background-color: white;
+    font-size: 28px;
+    margin: 70px;
+    padding: 10px;
+    justify-content: center;
+    
+
+}
+.secund-colum{
+    background-color: rgb(62, 176, 180);
+    left: 50px;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    line-height: 20px;
+}
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: rgb(132, 184, 132);
+    font-style: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 200px;
+    position: relative;
+    
+}
+.btn :hover{
+background-color: green;
+color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    border: none;  
+}
+#rodape{
+    font-family: Sikta Banner;
+    width: 100%;
+    display: flex;
+    background-color: #232566;
+    color: white;
+    align-items: center;
+    bottom: 0em;
+}
+
+#contato{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+#logoRodape{
+    margin-right: 15%;
+}
+
+#endereço{
+
+    margin-right: 15%;
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    background-color: #232566;
+    align-items: center;
+    position: fixed ;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+header div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Sikta Banner;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+#foto{
+	margin-left: 12%;
+}
+
+#textoInicio{
+	margin-left: 55%;
+}
+
+header div a{
+	text-decoration: none;
+	margin-right: 1em;
+	display: inline-flex;
+	color: white;
+	padding: 14px 16px;
+	align-items: center;
+	font: regular Sitka banner;
+	
+    
+}
+
+body section h1{
+	margin-top: 140px;
+	text-align: center;
+	margin-left: -2%;
+	font-family: Sitka Banner;
+	letter-spacing: 0px;
+	color: #244664;
+	opacity: 1;
+
+}
+
+body article a{
+	color: #B2B2B2;
+	margin-top: 200px;
+	font-family: Sitka Banner;
+	margin-left: 46%;
+	text-decoration: none;
+}
+
+article div a img{
+	position: absolute;
+	margin-left: -35%;
+	margin-top:100px;
+	size: 10%;
+	width: 10%  
+
+}
+#socorro{
+	color: #42447B;
+	display: flex;
+	margin-left: 12%;
+	margin-bottom: 20em;
+}
+
+#rodape{
+    
+    width: 100%;
+    display: flex;
+    background-color: #232566;
+    color: white;
+    align-items: center;
+    margin-top: 200px;
+}
+
+#contato{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-family: Sitka banner;
+}
+
+#logoRodape{
+    margin-right: 15%;
+}
+
+#endereço{
+
+    margin-right: 15%;
+    text-align: center;
+    font-family: Sitka banner;
+}

@@ -1,0 +1,127 @@
+header{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    background-color: #232566;
+    align-items: center;
+    position: fixed ;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+header div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Sikta Banner;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+body{
+    font-family: Sitka Banner;
+    color: #232566;
+    padding: -50px;
+}
+#foto-perfil{
+    position: relative;
+    margin-top: 230px;
+    margin-left: 120px;
+    width: 11%;
+}
+#box{
+    position: absolute;
+    z-index: 2px;
+    width: 450px;
+    height: 220px;
+    background-color: #232566;
+    margin-top:150px;
+    margin-left: -110px;
+    border-radius: 10px 120px 120px;
+    ;   
+}
+#box2{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    background-color: white;
+    margin-top: 165px;
+    margin-left: 100px;
+    border-radius: 120px 120px 120px;
+}
+#info{
+    position: relative;
+    margin-top: -50px;
+    margin-left: 370px;
+    margin-right: 22px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Sitka Banner;
+    color: #232566;
+}
+#botoes{
+    display: flex;
+    margin-left:20px;
+    margin-top: 50px
+    ;
+}
+.a-info{
+    margin-left: 400px;
+}
+.b-info{
+    margin-left:80px ;
+}
+.c-info{
+    margin-left:60px ;
+}
+
+.info2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.botao-unico{
+    margin-left: 100px;
+    color: white;
+    background-color: #232566;
+    border-radius: 20px;
+    border: 0px;
+    flex-direction: row;
+    margin: 30px auto;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    font:Sikta Banner;
+    text-decoration: none;
+}
+#wpp{
+    position: fixed;
+    left: 92%;
+    top: 83%;
+    z-index: 9;
+    width: 8%;
+}
+#rodape{
+    
+    width: 100%;
+    display: flex;
+    background-color: #232566;
+    color: white;
+    align-items: center;
+    bottom: 0em;
+}
+
+#contato{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+#logoRodape{
+    margin-right: 15%;
+}
+
+#endereço{
+
+    margin-right: 15%;
+    text-align: center;
+}
